@@ -30,7 +30,7 @@ export default {
     },
     methods: {
         handleScroll() {
-            const scrollBtn = this.$refs.scrollTopButton;
+            const scrollBtn = this.$refs.scrollTopButton as any;
             if (window.scrollY > 0) {
                 scrollBtn.classList.remove("invisible");
             } else {
