@@ -1,7 +1,7 @@
 <template>
     <section class="z-20 absolute w-full">
         <div class="layout-margin">
-            <ul class="text-primary text-lg flex gap-6 md:gap-10 font-medium">
+            <ul class="text-primary text-xl flex gap-4 md:gap-10 font-medium">
                 <li
                     class="hover:underline uppercase cursor-pointer"
                     v-for="item in navOptions"

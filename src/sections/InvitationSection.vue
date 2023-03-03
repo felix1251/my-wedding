@@ -1,9 +1,9 @@
 <template>
     <section
         id="invitation-section"
-        class="layout-margin py-5 h-screen"
+        class="layout-margin"
     >
-        <h2 class="uppercase text-lg text-gray-800 text-medium">Invitation</h2>
+        <h2 class="uppercase text-xl text-gray-800 text-medium">Invitation</h2>
     </section>
 </template>
 <script>
