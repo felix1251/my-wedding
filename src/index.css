@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply font-mono;
+  @apply scroll-smooth;
+}
+
+body {
+  @apply m-0 p-0 min-h-screen w-full;
+  @apply bg-primary;
+}
+
+#app {
+ 
+}
+
+.layout-margin{
+  @apply mx-auto max-w-7xl px-4 py-3;
+}
