@@ -1,7 +1,7 @@
 <template>
     <section
         id="invitation-section"
-        class="layout-margin"
+        class="section-container"
     >
         <h2 class="section-title">Invitation</h2>
     </section>
