@@ -10,15 +10,6 @@
                     {{ item.name }}
                 </li>
             </ul>
-            <ul class="text-primary text-xl flex gap-4 md:gap-10 font-medium">
-                <li
-                    class="hover:underline uppercase cursor-pointer"
-                    v-for="item in pageOptions"
-                    @click="scrollIntoView(item.scrollId)"
-                >
-                    {{ item.name }}
-                </li>
-            </ul>
         </div>
     </section>
 </template>
@@ -32,9 +23,6 @@ export default {
                 { name: "Participants", scrollId: "participant-section" },
                 { name: "Ceremony", scrollId: "ceremony-section" },
                 { name: "Reception", scrollId: "reception-section" },
-            ],
-            pageOptions: [
-                { name: "Invitation", scrollId: "invitation-section" },
             ],
         };
     },
