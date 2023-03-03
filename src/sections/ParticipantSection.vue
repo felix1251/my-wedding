@@ -1,13 +1,13 @@
 <template>
     <section
-        id="invitation-section"
+        id="participant-section"
         class="layout-margin"
     >
-        <h2 class="section-title">Invitation</h2>
+        <h2 class="section-title">Participants</h2>
     </section>
 </template>
 <script>
 export default {
-    name: "Invation Section",
+    name: "Paticipants Section",
 };
 </script>
