@@ -30,16 +30,16 @@ body {
   @apply default-text uppercase text-xl text-gray-800 text-center mb-2 font-medium;
 }
 
+.participant-list {
+  @apply flex gap-2 flex-col;
+}
+
 .participant-title {
   @apply default-text text-lg font-semibold;
 }
 
 .participant-name {
   @apply default-text text-lg;
-}
-
-.participant-list {
-  @apply flex gap-2 flex-col;
 }
 
 

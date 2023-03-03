@@ -5,9 +5,11 @@
     >
         <div class="absolute z-0 w-full h-screen bg-gray-900 opacity-[0.5]" />
         <div
-            class="relative flex justify-center items-center h-full font-thin text-primary layout-margin"
+            class="font-sans relative text-9xl flex gap-1.5 lg:gap-10 flex-col lg:flex-row flex-wrap justify-center items-center h-full text-primary layout-margin"
         >
-            <span class="text-center text-9xl md:text-9xl"> John & Anne </span>
+            <span> Felix </span>
+            <span> & </span>
+            <span> Lyra </span>
         </div>
         <ScrollDownIcon
             @click="scrollIntoView('ceremony-section')"

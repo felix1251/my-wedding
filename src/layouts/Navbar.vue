@@ -1,9 +1,11 @@
 <template>
     <section class="z-20 absolute w-full">
         <div class="layout-margin flex justify-between">
-            <ul class="text-primary text-xl flex gap-4 md:gap-10 font-medium">
+            <ul
+                class="text-primary text-xl flex justify-center w-full flex-col md:flex-row text-center md:text-start gap-1.5 md:gap-10 font-medium"
+            >
                 <li
-                    class="hover:underline uppercase cursor-pointer"
+                    class="md:hover:underline uppercase cursor-pointer"
                     v-for="item in navOptions"
                     @click="scrollIntoView(item.scrollId)"
                 >
