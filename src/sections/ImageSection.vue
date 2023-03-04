@@ -7,7 +7,7 @@
         <div
             class="uppercase font-sans relative text-9xl lg:text-[11rem] flex gap-1.5 lg:gap-10 flex-col lg:flex-row flex-wrap justify-center items-center h-full text-primary layout-margin"
         >
-            <span> Lira </span>
+            <span> Lyra </span>
             <span> & </span>
             <span> Felix </span>
         </div>
