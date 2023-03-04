@@ -1,5 +1,5 @@
 <template>
-    <section id="participant-section" class="section-container">
+    <section :id="scrollId" class="section-container">
         <h2 class="section-title">Participants</h2>
         <div class="participant-list">
             <div
@@ -85,7 +85,13 @@
     </section>
 </template>
 <script>
+import { PARTICIPANT_SECTION } from "./section.names.ts";
 export default {
     name: "Paticipants Section",
+    data() {
+        return {
+            scrollId: PARTICIPANT_SECTION,
+        };
+    },
 };
 </script>

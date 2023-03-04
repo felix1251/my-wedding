@@ -17,14 +17,20 @@
 </template>
 <script lang="ts">
 import { scrollIntoView } from "../utilities";
+import {
+    PARTICIPANT_SECTION,
+    CEREMONY_SECTION,
+    RECEPTION_SECTION,
+} from "../sections/section.names.ts";
+
 export default {
     name: "Navbar",
     data() {
         return {
             navOptions: [
-                { name: "Participants", scrollId: "participant-section" },
-                { name: "Ceremony", scrollId: "ceremony-section" },
-                { name: "Reception", scrollId: "reception-section" },
+                { name: "Participants", scrollId: PARTICIPANT_SECTION },
+                { name: "Ceremony", scrollId: CEREMONY_SECTION },
+                { name: "Reception", scrollId: RECEPTION_SECTION },
             ],
         };
     },

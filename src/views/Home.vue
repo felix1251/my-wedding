@@ -22,12 +22,12 @@ export default {
         ReceptionSection,
         ParticipantSection,
     },
-    mounted() {
-        window.addEventListener("scroll", this.handleScroll);
-    },
-    beforeUnmount() {
-        window.removeEventListener("scroll", this.handleScroll);
-    },
+    // mounted() {
+    //     window.addEventListener("scroll", this.handleScroll);
+    // },
+    // beforeUnmount() {
+    //     window.removeEventListener("scroll", this.handleScroll);
+    // },
     methods: {
         // handleScroll(): void {
         //     const scrollBtn = this.$refs.scrollTopButton as any;
