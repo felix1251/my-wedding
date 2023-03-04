@@ -8,7 +8,7 @@ module.exports = {
       },
       backgroundPosition: {
         'pos-center-top': 'center top 1rem',
-      }
+      },
     },
   },
   plugins: [],

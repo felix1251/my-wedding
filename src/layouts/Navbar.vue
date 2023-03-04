@@ -21,7 +21,7 @@ import {
     PARTICIPANT_SECTION,
     CEREMONY_SECTION,
     RECEPTION_SECTION,
-} from "../sections/section.names.ts";
+} from "../sections/section.names";
 
 export default {
     name: "Navbar",
