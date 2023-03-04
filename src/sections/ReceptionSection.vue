@@ -6,7 +6,7 @@
 <script>
 import { RECEPTION_SECTION } from "./section.names.ts";
 export default {
-    name: "Reception Section",
+    name: RECEPTION_SECTION,
     data() {
         return {
             scrollId: RECEPTION_SECTION,

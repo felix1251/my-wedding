@@ -87,7 +87,7 @@
 <script>
 import { PARTICIPANT_SECTION } from "./section.names.ts";
 export default {
-    name: "Paticipants Section",
+    name: PARTICIPANT_SECTION,
     data() {
         return {
             scrollId: PARTICIPANT_SECTION,

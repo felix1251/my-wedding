@@ -6,7 +6,7 @@
 <script>
 import { CEREMONY_SECTION } from "./section.names.ts";
 export default {
-    name: "Ceremony Section",
+    name: CEREMONY_SECTION,
     data() {
         return {
             scrollId: CEREMONY_SECTION,

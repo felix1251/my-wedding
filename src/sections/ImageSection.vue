@@ -23,7 +23,7 @@ import { scrollIntoView } from "../utilities";
 import { IMAGE_SECTION, PARTICIPANT_SECTION } from "./section.names.ts";
 
 export default {
-    name: "Image Section",
+    name: IMAGE_SECTION,
     data() {
         return {
             scrollId: IMAGE_SECTION,
