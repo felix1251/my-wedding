@@ -1,17 +1,85 @@
 <template>
-    <section
-        id="participant-section"
-        class="section-container"
-    >
+    <section id="participant-section" class="section-container">
         <h2 class="section-title">Participants</h2>
         <div class="participant-list">
-            <div class="text-center default-text">
-                <h3 class="participant-title">Bride</h3>
-                <span class="participant-name">Lyra Mae P. Espinosa</span>
+            <div
+                class="flex flex-col md:flex-row gap-5 md:gap-20 justify-center"
+            >
+                <div class="text-center default-text">
+                    <h3 class="participant-title">Bride</h3>
+                    <span class="participant-name">Lyra Mae P. Espinosa</span>
+                </div>
+                <div class="text-center default-text">
+                    <h3 class="participant-title">Groom</h3>
+                    <span class="participant-name">Felix G. Abacajen Jr.</span>
+                </div>
             </div>
-            <div class="text-center default-text">
-                <h3 class="participant-title">Groom</h3>
-                <span class="participant-name">Felix G. Abacajen Jr.</span>
+            <div
+                class="flex flex-col md:flex-row gap-5 md:gap-20 justify-center"
+            >
+                <div class="flex flex-col text-center default-text">
+                    <h3 class="participant-title">Bride's Parents</h3>
+                    <span class="participant-name">Marivic P. Espinosa</span>
+                    <span class="participant-name">Gabriel J. Espinosa</span>
+                </div>
+                <div class="flex flex-col text-center default-text">
+                    <h3 class="participant-title">Groom's Parents</h3>
+                    <span class="participant-name">Arlene G. Abacajen</span>
+                    <span class="participant-name">Felix Q. Abacajen Sr.</span>
+                </div>
+            </div>
+            <div class="flex gap-1 flex-col text-center default-text">
+                <h3 class="participant-title">Secondary Sponsors</h3>
+                <div
+                    class="flex gap-3 lg:gap-0 lg:grid lg:grid-cols-3 flex-col flex-row flex-wrap justify-center"
+                >
+                    <div>
+                        <h3 class="sub-participant-title">--Veil--</h3>
+                        <span class="participant-name">
+                            Mr. & Mrs. Games Cartel
+                        </span>
+                    </div>
+                    <div>
+                        <h3 class="sub-participant-title">--Candle--</h3>
+                        <span class="participant-name">
+                            Mr. & Mrs. Rolly Dave Paramo
+                        </span>
+                    </div>
+                    <div>
+                        <h3 class="sub-participant-title">--Cord--</h3>
+                        <span class="participant-name">
+                            Mr. & Mrs. Allain Dee Reyes
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-row flex-wrap gap-5 md:gap-20 justify-center">
+                <div class="flex flex-col text-center default-text">
+                    <h3 class="participant-title">Made of Honor</h3>
+                    <span class="participant-name">Shiela Mae Llanasas</span>
+                </div>
+                <div class="flex flex-col flex-wrap text-center default-text">
+                    <h3 class="participant-title">Best Man</h3>
+                    <span class="participant-name">Paul Justine Abacajen</span>
+                </div>
+            </div>
+            <div class="flex flex-row flex-wrap gap-5 md:gap-20 justify-center">
+                <div class="flex flex-col text-center default-text">
+                    <h3 class="participant-title">Bridesmaid</h3>
+                    <span class="participant-name">Crystal Sheen Abacajen</span>
+                    <span class="participant-name">Shiela Mika Llanasas</span>
+                    <span class="participant-name">Prescius Joy Pacundo</span>
+                    <span class="participant-name">Ella Mae Pacundo</span>
+                    <span class="participant-name">Erika Anne Llanasas</span>
+                </div>
+                <div class="flex flex-col text-center default-text">
+                    <h3 class="participant-title">Groomsmen</h3>
+                    <span class="participant-name">Ejay Gallardo</span>
+                    <span class="participant-name">John Daniel Espinosa</span>
+                    <span class="participant-name">Kent Lawrence Samson</span>
+                    <span class="participant-name">Tristan Schin Reyes</span>
+                    <span class="participant-name">Tzaddi Zain Reyes</span>
+                </div>
             </div>
         </div>
     </section>

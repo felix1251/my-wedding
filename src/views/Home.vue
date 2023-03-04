@@ -29,14 +29,14 @@ export default {
         window.removeEventListener("scroll", this.handleScroll);
     },
     methods: {
-        handleScroll(): void {
-            const scrollBtn = this.$refs.scrollTopButton as any;
-            if (window.scrollY > 0) {
-                scrollBtn.classList.remove("invisible");
-            } else {
-                scrollBtn.classList.add("invisible");
-            }
-        },
+        // handleScroll(): void {
+        //     const scrollBtn = this.$refs.scrollTopButton as any;
+        //     if (window.scrollY > 0) {
+        //         scrollBtn.classList.remove("invisible");
+        //     } else {
+        //         scrollBtn.classList.add("invisible");
+        //     }
+        // },
     },
 };
 </script>

@@ -12,7 +12,7 @@
             <span> Felix </span>
         </div>
         <ScrollDownIcon
-            @click="scrollIntoView('ceremony-section')"
+            @click="scrollIntoView('participant-section')"
             class="cursor-pointer text-primary w-11 absolute m-auto left-0 right-0 bottom-10"
         />
     </section>
