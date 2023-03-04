@@ -28,7 +28,7 @@ export default {
     data() {
         return {
             navOptions: [
-                { name: "Participants", scrollId: PARTICIPANT_SECTION },
+                { name: "Bridal Entourage", scrollId: PARTICIPANT_SECTION },
                 { name: "Ceremony", scrollId: CEREMONY_SECTION },
                 { name: "Reception", scrollId: RECEPTION_SECTION },
             ],

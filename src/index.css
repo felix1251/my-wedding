@@ -15,7 +15,7 @@ body {
 }
 
 .layout-margin {
-    @apply mx-auto max-w-6xl px-4 py-3;
+    @apply mx-auto max-w-7xl px-4 py-3;
 }
 
 .default-text {
