@@ -1,6 +1,19 @@
 <template>
-    <section :id="scrollId" class="section-container">
-        <h2 class="section-title">Ceremony</h2>
+    <section :id="scrollId">
+        <div
+            class="flex justify-center items-center w-full bg-fixed bg-cover h-52 bg-center bg-no-repeat bg-[url('../src/assets/img/wed-2.jpg')]"
+        >
+            <div class="absolute z-0 w-full h-52 bg-gray-900 opacity-[0.5]" />
+            <h2 class="section-title-large z-10">Ceremony</h2>
+        </div>
+        <div class="mx-auto max-w-7xl my-60 flex flex-col gap-4 text-center">
+            <span class="text-2xl uppercase font-medium text-gray-800">
+                Jesus is Lord Church
+            </span>
+            <span class="participant-name">
+                Lower Mabini, Pan - Philippine Hwy, Cabadbaran City
+            </span>
+        </div>
     </section>
 </template>
 <script>
