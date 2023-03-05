@@ -71,8 +71,8 @@
                     <span class="participant-name">Crystal Sheen Abacajen</span>
                     <span class="participant-name">Angela Nicole Llanasas</span>
                     <span class="participant-name">Shiela Mika Llanasas</span>
-                    <span class="participant-name">Prescius Joy Pacundo</span>
-                    <span class="participant-name">Ella Mae Pacundo</span>
+                    <span class="participant-name">Anna Rose Tinambacan</span>
+                    <span class="participant-name">Quennie Lynn Sevilla</span>
                     <span class="participant-name">Erika Anne Llanasas</span>
                 </div>
                 <div class="flex flex-col default-text">
