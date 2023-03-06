@@ -17,7 +17,8 @@
         />
     </section>
 </template>
-<script>
+
+<script lang="ts">
 import ScrollDownIcon from "../components/ScrollDownIcon.vue";
 import { scrollIntoView } from "../utilities";
 import { IMAGE_SECTION, PARTICIPANT_SECTION } from "./section.names.ts";

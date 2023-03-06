@@ -21,7 +21,7 @@
         </div>
     </section>
 </template>
-<script>
+<script lang="ts">
 import { RECEPTION_SECTION } from "./section.names.ts";
 export default {
     name: RECEPTION_SECTION,

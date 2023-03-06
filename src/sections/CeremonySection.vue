@@ -21,7 +21,8 @@
         </div>
     </section>
 </template>
-<script>
+
+<script lang="ts">
 import { CEREMONY_SECTION } from "./section.names.ts";
 export default {
     name: CEREMONY_SECTION,
