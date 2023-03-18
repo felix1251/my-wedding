@@ -1,7 +1,7 @@
 <template>
     <section :id="scrollId">
         <div
-            class="flex justify-center items-center w-full bg-fixed bg-cover h-52 bg-top bg-no-repeat bg-[url('../src/assets/img/wed-3.jpg')]"
+            class="flex justify-center items-center w-full bg-fixed bg-cover h-52 bg-center bg-no-repeat bg-[url('../src/assets/img/main-3.png')]"
         >
             <div class="absolute z-0 w-full h-52 bg-gray-900 opacity-[0.5]" />
             <h2 class="section-title-large z-10">Reception</h2>

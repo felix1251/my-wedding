@@ -1,7 +1,7 @@
 <template>
     <section
         :id="scrollId"
-        class="z-0 w-full bg-cover bg-fixed h-screen md:bg-top bg-center bg-no-repeat bg-[url('../src/assets/img/wed-main.jpeg')]"
+        class="z-0 w-full bg-cover bg-fixed h-screen md:bg-top bg-center bg-no-repeat bg-[url('../src/assets/img/main.png')]"
     >
         <div class="absolute z-0 w-full h-screen bg-gray-900 opacity-[0.5]" />
         <div

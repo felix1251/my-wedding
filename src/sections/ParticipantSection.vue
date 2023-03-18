@@ -1,8 +1,5 @@
 <template>
-    <section
-        :id="scrollId"
-        class="section-container"
-    >
+    <section :id="scrollId" class="section-container">
         <h2 class="section-title">Bridal Entourage</h2>
         <div class="participant-list">
             <div
@@ -33,7 +30,7 @@
             </div>
             <div class="flex gap-1 flex-col text-center default-text">
                 <h3 class="participant-title">Secondary Sponsors</h3>
-                <div class="flex gap-3 flex-row flex-wrap justify-center">
+                <div class="flex gap-10 flex-row flex-wrap justify-center">
                     <div>
                         <h3 class="sub-participant-title">--Veil--</h3>
                         <span class="participant-name">
@@ -198,7 +195,6 @@
                         <span class="participant-name">
                             Mr. & Mrs. Sergio Aznar
                         </span>
-
                         <span class="participant-name">
                             Mr. & Mrs. Roderick Llanasas
                         </span>
